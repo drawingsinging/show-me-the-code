@@ -57,3 +57,4 @@ Show me the code, one day per week.
   [jifeng]: https://github.com/jifeng
   [coolme200]: https://github.com/coolme200
   [christineRR]: https://github.com/christineRR
+  [loseheaven]: https://github.com/loseheaven
