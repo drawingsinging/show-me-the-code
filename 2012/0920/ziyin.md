@@ -1,16 +1,22 @@
 # nodejs文件下载服务
 
-踩到的几个坑：
-1.Excel2007 打开utf-8编码的csv文件默认乱码
-相关信息：http://www.docin.com/p-31710590.html
-2.文件名中含中文，下载会乱码。各浏览器表现不同
-相关信息：http://www.phpv.net/html/1675.html
+## 踩到的几个坑：
 
-解决方法：
-iconv转码，utf-8 -> gbk
-转完后为buffer对象，内容直接res.end(buffer), header中的filename则由buffer.toString('binary');
+  1.Excel2007 打开utf-8编码的csv文件默认乱码
 
-http://10.232.132.165:22222/down
+  相关信息：http://www.docin.com/p-31710590.html
+
+  2.文件名中含中文，下载会乱码。各浏览器表现不同
+
+  相关信息：http://www.phpv.net/html/1675.html
+
+## 解决方法：
+
+  iconv转码，utf-8 -> gbk
+
+  转完后为buffer对象，内容直接res.end(buffer), header中的filename则由buffer.toString('binary');
+
+  http://10.232.132.165:22222/down
 
 
 ```js
