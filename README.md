@@ -21,6 +21,7 @@ Show me the code, one day per week.
  6. [0920](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0920)
   * [ejs的escape and unittest heplers: pedding](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0920/suqian.md) @[fengmk2] 
   * [WebGhost帮助实现在线Slide的截图](https://github.com/TBEDP/ghost/tree/master/example)@[JacksonTian]
+  * [XSS等web安全漏洞的防范](http://deadhorse.me/nodejs/2012/09/20/xss_in_cnode.html)@[dead-horse]
  5. [0912](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0912)
   * [异步方法的串行化](https://github.com/TBEDP/ghost) @[JacksonTian] 
   * [魔方前端优化的几点实践](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0912/liuxin.md) @[christineRR] 
