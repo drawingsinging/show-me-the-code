@@ -53,3 +53,18 @@ it('should request two resources', function (done) {
   });
 });
 ```
+
+# nodejs的stream编程
+
+[@substack: stream-handbook](https://github.com/substack/stream-handbook#dnode)
+
+This document covers the basics of how to write [node.js](http://nodejs.org/)
+programs with [streams](http://nodejs.org/docs/latest/api/stream.html).
+
+```
+"We should have some ways of connecting programs like garden hose--screw in
+another segment when it becomes necessary to massage data in
+another way. This is the way of IO also."
+
+Doug McIlroy. October 11, 1964
+```
