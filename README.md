@@ -11,6 +11,7 @@ Show me the code, one day per week.
 |#0|[fengmk2]@苏千|5|
 |#0|[JacksonTian]@朴灵|5|
 |#3|[jifeng]@继风|2|
+|#3|[loseheaven]@紫胤|2|
 |#4|[coolme200]@汤尧|1|
 |#4|[christineRR]@柳心|1|
 
