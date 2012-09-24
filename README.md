@@ -18,6 +18,8 @@ Show me the code, one day per week.
 ## History
 
 * [2012](https://github.com/TBEDP/show-me-the-code/tree/master/2012)
+ 7. [0928](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0928)
+  * [Stream API](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/suqian.md) @[fengmk2]
  6. [0920](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0920)
   * [ejs的escape and unittest heplers: pedding](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0920/suqian.md) @[fengmk2] 
   * [WebGhost帮助实现在线Slide的截图](https://github.com/TBEDP/ghost/tree/master/example)@[JacksonTian]
