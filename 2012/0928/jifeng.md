@@ -3,7 +3,13 @@ again
 
 ##概况
 
-更加方便灵活地管理一个函数的定时执行和执行次数
+更加方便灵活地管理一个函数的定时执行和执行次数。
+
+使用场景：
+
+1. 定时从数据库中读取数据
+
+2. 等待满足某些条件时再启动进程
 
 ##安装
 
@@ -25,7 +31,7 @@ again
       console.log(data);
     });
     
-    //每个10ms，执行一遍addCallTimes,一共执行100词
+    //每个10ms，执行一遍addCallTimes,一共执行100次
     var againHundredTimes = again(addCallTimes, 10, 100);
     againHundredTimes(function (err, data) {
       console.log(data);
