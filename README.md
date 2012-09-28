@@ -20,6 +20,7 @@ Show me the code, one day per week.
 * [2012](https://github.com/TBEDP/show-me-the-code/tree/master/2012)
  7. [0928](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0928)
   * [browserify, 在浏览器环境下使用nodejs的require()方式进行开发](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/suqian2.md) @[fengmk2]
+  * [firefox hash decode](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/liuxin.md) @[christineRR]
  6. [0920](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0920)
   * [ejs的escape and unittest heplers: pedding](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0920/suqian.md) @[fengmk2] 
   * [WebGhost帮助实现在线Slide的截图](https://github.com/TBEDP/ghost/tree/master/example)@[JacksonTian]
