@@ -11,6 +11,11 @@ again
 
 2. 等待满足某些条件时再启动进程
 
+
+## 地址
+
+https://github.com/jifeng/again
+
 ##安装
 
     npm install again
