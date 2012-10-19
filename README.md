@@ -14,10 +14,12 @@ Show me the code, one day per week.
 |#3|[loseheaven]@紫胤|2|
 |#4|[coolme200]@汤尧|1|
 |#4|[christineRR]@柳心|1|
+|#5|[sunfang1cn]@卡特|2|
 
 ## History
 
 * [2012](https://github.com/TBEDP/show-me-the-code/tree/master/2012)
+ 8. [1023](https://github.com/TBEDP/show-me-the-code/tree/master/2012/1023)
  7. [0928](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0928)
   * [browserify, 在浏览器环境下使用nodejs的require()方式进行开发](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/suqian2.md) @[fengmk2]
   * [firefox hash decode](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/liuxin.md) @[christineRR]
@@ -43,6 +45,7 @@ Show me the code, one day per week.
   * [`Landscape` 前端业务逻辑组织解决方案](https://github.com/JacksonTian/landscape) @[JacksonTian]
   * [Tiny ack-style file search utility.](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0831/busi.md) @[dead-horse]
   * [log4js 日志使用](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0831/tangyao.md) @[coolme200]
+  * [RephaelJS生成v:image元素的Bug](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0831/kate.md) @[sunfang1cn]
  2. [0823](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0823)
   * [C++ addon中buffer传递到js中](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0823/busi.md) @[dead-horse]
   * [mysql连接超时问题](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0823/jifeng.md) @[jifeng]
@@ -52,6 +55,7 @@ Show me the code, one day per week.
   * [`Array`, `Hash` and `LinkList`](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0815/busi.md) @[dead-horse]
   * [mongodb replset connect() bug](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0815/suqian.md) @[fengmk2]
   * [从Moment看如何写就一个优秀的模块](http://www.infoq.com/cn/articles/how-to-create-great-js-module) @[JacksonTian]
+  * [Node.JS 中Buffer的各种坑](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0815/kate.md) @[sunfang1cn]
 
 > Linus: ["Talk is cheap. Show me the code."](https://lkml.org/lkml/2000/8/25/132)
 
@@ -62,3 +66,4 @@ Show me the code, one day per week.
   [coolme200]: https://github.com/coolme200
   [christineRR]: https://github.com/christineRR
   [loseheaven]: https://github.com/loseheaven
+  [sunfang1cn]: https://github.com/sunfang1cn
