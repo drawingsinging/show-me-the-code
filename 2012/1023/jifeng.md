@@ -1,5 +1,5 @@
-
-==MongoDB中query当key时的错误
+MongoDB中query当key时的错误
+====
 
 具体数据：
 
@@ -37,3 +37,10 @@
     { "_id" : ObjectId("4fe9557b1219143f31b9d2ba"), "q" : 1, "r" : 2 }
 
 在mongodb 最新版本2.2.0 依然存在这个问题
+
+mongodb中的join操作
+====
+
+在自己代码中实现：http://www.cnblogs.com/lengyuhong/archive/2012/04/14/2446442.html
+
+mapreduce：http://tebros.com/2011/07/using-mongodb-mapreduce-to-join-2-collections/
