@@ -21,6 +21,21 @@ git 通常是走分支开发，一般来说，master 的写权限只有很少人
 5. review通过，最终通过web的auto merge 功能进行自动合并，到处，这次快速迭代开发完毕。
 6. 继续按 1. 循环进行下一次迭代。
 
+### git rebase
+
+如果在提交合并请求之前，发现已经落后master很多个版本，并且无法自动解决冲突，
+需要先将分支在master上rebase一下，然后手动解决完冲突，再提交到一个xxx-rebase分支。
+
+然后在提交合并请求。
+
+也就是说，**冲突解决由分支提交者来处理**。
+
+请按照 [交互式rebase](http://gitbook.liuhui998.com/4_3.html) 将多个commit合并成一个。
+
+```bash
+$ git rebase master -i
+```
+
 ### 设定你的git身份
 
 为了不污染全局的git身份标示，建议对每个git项目单独设置内部的身份标示，如
