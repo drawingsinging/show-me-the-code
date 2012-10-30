@@ -30,6 +30,10 @@ $ git config user.name 苏千
 $ git config user.email suqian.yf@taobao.com
 ```
 
+### 从 svn 迁移到 gitlab
+
+可以参考TCIF的迁移过程: [从 svn 迁移到 gitlab](http://work.taobao.org/projects/tcif/wiki/Svn_%E8%BF%81%E7%A7%BB%E5%88%B0_git)
+
 ## 代码规范
 
 必要严格参照 [Node代码规范](https://github.com/windyrobin/iFrame/blob/master/style.md)
