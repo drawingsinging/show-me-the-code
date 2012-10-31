@@ -36,6 +36,8 @@ git 通常是走分支开发，一般来说，master 的写权限只有很少人
 $ git rebase master -i
 ```
 
+git rebase 相关的一篇图文并茂：[Git-rebase 小筆記](http://blog.yorkxin.org/2011/07/29/git-rebase)
+
 ### 设定你的git身份
 
 为了不污染全局的git身份标示，建议对每个git项目单独设置内部的身份标示，如
