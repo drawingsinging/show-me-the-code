@@ -108,3 +108,6 @@ test-cov: cov
 
 [实战Nodejs单元测试](http://fengmk2.github.com/ppt/unittest-and-bdd-in-nodejs-with-mocha.html)
 
+## 服务器申请、环境、路径及监听端口约定
+
+请查看 [服务器申请、环境、路径及监听端口约定](http://baike.corp.taobao.com/index.php/ServerENV#.E4.B8.80.E6.AC.A1.E6.80.A7.E5.AE.89.E8.A3.85.E6.89.80.E6.9C.89.E4.BE.9D.E8.B5.96.E5.8F.8A.E7.8E.AF.E5.A2.83) 文档
