@@ -14,11 +14,18 @@
 
   history对象新增pushState和replaceState方法，可以更新url而不导致页面刷新；（即使修改的不是hash值，也不会刷新页面）
 
-  在浏览器中增加一条新的历史记录：window.history.pushState(state, title, url);
+  在浏览器中增加一条新的历史记录：
+  ```js
+  window.history.pushState(state, title, url);
+  ```
 
-  替换当前的历史记录：window.history.replaceState(state, title, url);
+  替换当前的历史记录：
+  ```js
+  window.history.replaceState(state, title, url);
+  ```
 
   浏览器前进、后退事件：
+  ```js
   window.addEventListener('popstate', function(e){
       var state = e.state;
       if(state){
@@ -26,6 +33,7 @@
       }
     }
   }, false);
+  ```
 
   注意：打开或刷新页面时，chrome也会触发popstate事件，firefox不会。可以判断event中state对象是否为null判断是否是打开或刷新页面触发的popstate
 
