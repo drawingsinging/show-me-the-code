@@ -66,5 +66,6 @@ Show me the code, one day per week.
   [coolme200]: https://github.com/coolme200
   [christineRR]: https://github.com/christineRR
   [loseheaven]: https://github.com/loseheaven
+  [ziyin]: https://github.com/loseheaven
   [sunfang1cn]: https://github.com/sunfang1cn
   [jdk137]: https://github.com/jdk137
