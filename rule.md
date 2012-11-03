@@ -74,7 +74,7 @@ NAME = nodeblog
 TESTS = $(shell ls -S `find test -type f -name "*.test.js" -print`)
 TIMEOUT = 5000
 REPORTER = tap
-JSCOVERAGE = ./node_modules/jscover/bin/jscover
+JSCOVERAGE = ./node_modules/visionmedia-jscoverage/jscoverage
 PROJECT_DIR = $(shell pwd)
 NPM_INSTALL_PRODUCTION = PYTHON=`which python2.6` NODE_ENV=production \
   npm --registry=http://registry.npm.tbdata.org --production install
