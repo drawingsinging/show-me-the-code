@@ -70,38 +70,53 @@ $ git config user.email suqian.yf@taobao.com
 一个web应用的 `Makefile` 示例:
 
 ```bash
-NAME = nodeblog
 TESTS = $(shell ls -S `find test -type f -name "*.test.js" -print`)
-TIMEOUT = 5000
+TIMEOUT = 30000
+MOCHA_OPTS =
 REPORTER = tap
-JSCOVERAGE = ./node_modules/visionmedia-jscoverage/jscoverage
-PROJECT_DIR = $(shell pwd)
-NPM_INSTALL_PRODUCTION = PYTHON=`which python2.6` NODE_ENV=production \
-  npm --registry=http://registry.npm.tbdata.org --production install
-NPM_INSTALL_TEST = PYTHON=`which python2.6` NODE_ENV=test \
-  npm --registry=http://registry.npm.tbdata.org install 
+JSCOVERAGE = ./node_modules/jscover/bin/jscover
+NPM = ./node_modules/tnpm/bin/tnpm
+NPM_INSTALL_PRODUCTION = PYTHON=`which python2.6` NODE_ENV=production $(NPM) install
+NPM_INSTALL_TEST = PYTHON=`which python2.6` NODE_ENV=test $(NPM) install 
 
-install:
+preinstall:
+  @if [ ! -f $(NPM) ] ; then \
+    npm --registry=http://registry.npm.tbdata.org install tnpm; \
+  fi
+
+check: preinstall
+  @$(NPM) check
+
+install: preinstall check
   @$(NPM_INSTALL_PRODUCTION)
+  @$(MAKE) compile
 
-test:
-  @$(MAKE) install
+install-test: preinstall check
   @$(NPM_INSTALL_TEST)
+
+dev:
+  @$(NPM_INSTALL_TEST)
+  @./node_modules/node-dev/node-dev dispatch.js
+
+test: install-test
   @NODE_ENV=test node_modules/mocha/bin/mocha \
-    --reporter $(REPORTER) --timeout $(TIMEOUT) $(TESTS)
+    --reporter $(REPORTER) --timeout $(TIMEOUT) $(MOCHA_OPTS) $(TESTS)
 
 cov:
-  @rm -rf ../$(NAME)-cov
-  @$(JSCOVERAGE) --encoding=utf-8 --exclude=node_modules --exclude=test --exclude=public \
-    --exclude=bin --exclude=client --exclude=benchmarks --exclude=conf \
-    ./ ../$(NAME)-cov
-  @cp -rf ./node_modules ./bin ./test ./public ./conf ./dispatch.js ./hsf.js ../$(NAME)-cov
+  @rm -rf cov
+  @$(JSCOVERAGE) --exclude=test --exclude=public \
+    --exclude=bin --exclude=conf --exclude=tmp --exclude=lib . cov
+  @cp -rf ./node_modules ./test ./public ./conf ./dispatch.js ./lib ./bin cov
 
 test-cov: cov
-  @$(MAKE) -C $(PROJECT_DIR)/../$(NAME)-cov test REPORTER=dot
-  @$(MAKE) -C $(PROJECT_DIR)/../$(NAME)-cov test REPORTER=html-cov > $(PROJECT_DIR)/coverage.html
+  @$(MAKE) -C ./cov test REPORTER=dot
+  @$(MAKE) -C ./cov test REPORTER=html-cov > coverage.html
 
-.PHONY: install test test-cov cov
+toast:
+  @curl http://toast.corp.taobao.com/api/runtaskbyid?id=$TASK_ID
+  @open http://toast.corp.taobao.com/task/view/id/$TASK_ID
+
+.PHONY: preinstall check install install-test test test-cov cov toast
 ```
 
 ### 单元测试参考 
