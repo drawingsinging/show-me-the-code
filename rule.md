@@ -75,28 +75,19 @@ TIMEOUT = 30000
 MOCHA_OPTS =
 REPORTER = tap
 JSCOVERAGE = ./node_modules/jscover/bin/jscover
-NPM = ./node_modules/tnpm/bin/tnpm
-NPM_INSTALL_PRODUCTION = PYTHON=`which python2.6` NODE_ENV=production $(NPM) install
-NPM_INSTALL_TEST = PYTHON=`which python2.6` NODE_ENV=test $(NPM) install 
+PROJECT_DIR = $(shell pwd)
+NPM_REGISTRY = --registry=http://registry.npm.taobao.net
+NPM_INSTALL_PRODUCTION = PYTHON=`which python2.6` NODE_ENV=production npm install $(NPM_REGISTRY)
+NPM_INSTALL_TEST = PYTHON=`which python2.6` NODE_ENV=test npm install $(NPM_REGISTRY)
 
-preinstall:
-  @if [ ! -f $(NPM) ] ; then \
-    npm --registry=http://registry.npm.tbdata.org install tnpm; \
-  fi
+check:
+  @curl -s http://npm.taobao.org/version/check.sh | sh
 
-check: preinstall
-  @$(NPM) check
-
-install: preinstall check
+install: check
   @$(NPM_INSTALL_PRODUCTION)
-  @$(MAKE) compile
 
-install-test: preinstall check
+install-test: check
   @$(NPM_INSTALL_TEST)
-
-dev:
-  @$(NPM_INSTALL_TEST)
-  @./node_modules/node-dev/node-dev dispatch.js
 
 test: install-test
   @NODE_ENV=test node_modules/mocha/bin/mocha \
@@ -110,13 +101,13 @@ cov:
 
 test-cov: cov
   @$(MAKE) -C ./cov test REPORTER=dot
-  @$(MAKE) -C ./cov test REPORTER=html-cov > coverage.html
+  @$(MAKE) -C ./cov test REPORTER=html-cov > $(PROJECT_DIR)/coverage.html
 
 toast:
   @curl http://toast.corp.taobao.com/api/runtaskbyid?id=$TASK_ID
   @open http://toast.corp.taobao.com/task/view/id/$TASK_ID
 
-.PHONY: preinstall check install install-test test test-cov cov toast
+.PHONY: check install install-test test test-cov cov toast
 ```
 
 ### 单元测试参考 
