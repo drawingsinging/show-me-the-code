@@ -8,7 +8,7 @@ Show me the code, one day per week.
 |Rank|Name|Times|
 |----|----|----|
 |#0|[dead-horse]@不四|5|
-|#0|[fengmk2]@苏千|5|
+|#0|[fengmk2]@苏千|6|
 |#0|[JacksonTian]@朴灵|5|
 |#3|[jifeng]@继风|2|
 |#3|[loseheaven]@紫胤|2|
@@ -21,6 +21,7 @@ Show me the code, one day per week.
 * [2012](https://github.com/TBEDP/show-me-the-code/tree/master/2012)
     - [1227](https://github.com/TBEDP/show-me-the-code/tree/master/2012/1227)
         - [Velocity](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/puling.md) @[JacksonTian]
+        - [使用 connect-domain 捕获异步调用中出现的异常](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/suqian.md) @[fengmk2]
     - [1023](https://github.com/TBEDP/show-me-the-code/tree/master/2012/1023)
     - [0928](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0928)
         - [browserify, 在浏览器环境下使用nodejs的require()方式进行开发](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/suqian2.md) @[fengmk2]
