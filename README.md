@@ -23,6 +23,9 @@ Show me the code, one day per week.
         - [Velocity](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/puling.md) @[JacksonTian]
         - [使用 connect-domain 捕获异步调用中出现的异常](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/suqian.md) @[fengmk2]
     - [1023](https://github.com/TBEDP/show-me-the-code/tree/master/2012/1023)
+        - [用googlemap实现大svg图片的显示](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1023/fahui.md) @[jdk137]
+        - [MongoDB中query当key时的错误](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1023/jifeng.md) @[jifeng]
+        - [以表单方式上传文件](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1023/suqian.md) @[fengmk2]
     - [0928](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0928)
         - [browserify, 在浏览器环境下使用nodejs的require()方式进行开发](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/suqian2.md) @[fengmk2]
         - [firefox hash decode](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/liuxin.md) @[christineRR]
