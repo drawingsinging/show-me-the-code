@@ -22,14 +22,14 @@ function attack() {
   // return;
 
   var client = net.connect({
-     port: 1234,
+     port: 33749,
   }, function () {
-    console.log('client connected');
+//    console.log('client connected');
     client.write(data);
   });
 
   client.on('data', function (chunk) {
-    console.log(chunk.toString());
+//    console.log(chunk.toString());
   });
 
   client.on('end', function () {
