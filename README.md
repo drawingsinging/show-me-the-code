@@ -19,6 +19,8 @@ Show me the code, one day per week.
 ## History
 
 * [2012](https://github.com/TBEDP/show-me-the-code/tree/master/2012)
+    - [1227](https://github.com/TBEDP/show-me-the-code/tree/master/2012/1227)
+        - [Velocity](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/puling.md) @[JacksonTian]
     - [1023](https://github.com/TBEDP/show-me-the-code/tree/master/2012/1023)
     - [0928](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0928)
         - [browserify, 在浏览器环境下使用nodejs的require()方式进行开发](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/suqian2.md) @[fengmk2]
