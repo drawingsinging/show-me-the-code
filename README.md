@@ -23,6 +23,7 @@ Show me the code, one day per week.
         - [Velocity](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/puling.md) @[JacksonTian]
         - [使用 connect-domain 捕获异步调用中出现的异常](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/suqian.md) @[fengmk2]
         - [googleMap 大数据交互方案尝试](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/fahui.md) @[jdk137]
+        - [node-hsf介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1227/busi.md) @[dead-horse]
     - [1023](https://github.com/TBEDP/show-me-the-code/tree/master/2012/1023)
         - [用googlemap实现大svg图片的显示](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1023/fahui.md) @[jdk137]
         - [MongoDB中query当key时的错误](https://github.com/TBEDP/show-me-the-code/blob/master/2012/1023/jifeng.md) @[jifeng]
