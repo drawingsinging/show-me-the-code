@@ -21,7 +21,7 @@ Show me the code, one day per week.
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
     - [1227](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0110)
         - [Velocity](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0110/suqian.md) @[fengmk2]
-        - [Slidemate](https://github.com/JacksonTian/slidemate)
+        - [Slidemate](https://github.com/JacksonTian/slidemate) @[JacksonTian]
 
 * [2012](https://github.com/TBEDP/show-me-the-code/tree/master/2012)
     - [1227](https://github.com/TBEDP/show-me-the-code/tree/master/2012/1227)
