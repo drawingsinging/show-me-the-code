@@ -126,4 +126,4 @@ ep.done(function (content) {
 
 ## 结论
 
-其实这就是一种 `Promises` ，更多可以查看 http://blog.coolaj86.com/futures/
+其实这就是一种 `Promises` ，更多可以查看 http://howtonode.org/promises
