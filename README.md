@@ -19,6 +19,8 @@ Show me the code, one day per week.
 ## History
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
+    - [0129](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0129)
+        - [微信公共平台中间件](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0129/puling.md) @[JacksonTian]
     - [0117](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0117)
         - [灰度发布](http://ww1.sinaimg.cn/large/6cfc7910jw1e0weo7tc77j.jpg) @[christineRR]
         - [CSS Coding Style](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml) @[JacksonTian]
