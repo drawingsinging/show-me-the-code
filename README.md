@@ -21,6 +21,7 @@ Show me the code, one day per week.
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
     - [0227](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0227)
         - [RESTful URL router](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/suqian.md): 什么是REST，和一个简单的RESTful路由模块 @[fengmk2]
+        - [不要捕获异步函数中的异常](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/puling.md) @[JacksonTian]
     - [0129](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0129)
         - [ali-cache, itierskin, ali-logger](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0129/suqian.md) 几个内部模块介绍 @[fengmk2]
         - [微信公共平台中间件](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0129/puling.md) @[JacksonTian]
@@ -46,16 +47,16 @@ Show me the code, one day per week.
         - [firefox hash decode](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/liuxin.md) @[christineRR]
         - [在云端图表可视化demo](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0928/fahui.md) @[jdk137]
     - [0920](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0920)
-        - [ejs的escape and unittest heplers: pedding](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0920/suqian.md) @[fengmk2] 
+        - [ejs的escape and unittest heplers: pedding](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0920/suqian.md) @[fengmk2]
         - [WebGhost帮助实现在线Slide的截图](https://github.com/TBEDP/ghost/tree/master/example)@[JacksonTian]
         - [XSS等web安全漏洞的防范](http://deadhorse.me/nodejs/2012/09/20/xss_in_cnode.html)@[dead-horse]
         - [文件下载服务中的中文处理](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0920/ziyin.md) @[loseheaven]
     - [0912](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0912)
-        - [异步方法的串行化](https://github.com/TBEDP/ghost) @[JacksonTian] 
-        - [魔方前端优化的几点实践](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0912/liuxin.md) @[christineRR] 
+        - [异步方法的串行化](https://github.com/TBEDP/ghost) @[JacksonTian]
+        - [魔方前端优化的几点实践](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0912/liuxin.md) @[christineRR]
         - [使用 supertest 辅助http相关的单元测试](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0912/suqian.md), supertest@[github](https://github.com/visionmedia/supertest) @[fengmk2]
-        - [forwards流量转发模块](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0912/busi.md), [forwards](https://github.com/dead-horse/forwards) @[dead-horse]   
-        - [魔方中加密算法的使用](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0912/ziyin.md) @[loseheaven] 
+        - [forwards流量转发模块](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0912/busi.md), [forwards](https://github.com/dead-horse/forwards) @[dead-horse]
+        - [魔方中加密算法的使用](https://github.com/TBEDP/show-me-the-code/blob/master/2012/0912/ziyin.md) @[loseheaven]
     - [0907](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0907)
         - [异步调用限流方案](https://github.com/JacksonTian/bagpipe) @[JacksonTian]
         - [logstream: 专为日志文件而生的WriteStream模块](https://github.com/fengmk2/logstream) @[fengmk2]
