@@ -72,3 +72,7 @@ var server = connect(
   })
 ).listen(3000);
 ```
+
+## Rails-like routing for Express 3.x
+
+如果你在用 Express 3.x，这个模块也是一个不错的选择： https://github.com/jsw0528/railstyle-router#readme
