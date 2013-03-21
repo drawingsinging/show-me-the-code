@@ -1,9 +1,11 @@
-# .attr() vs .prop()
+# jQuery .attr() vs .prop()
 
 对于jQuery的attr函数大家都很熟悉，用来获取或设置匹配的第一个元素的属性值，比较常用。
 而prop函数用的会少一些，但是官网api对它的描述也是用来获取或设置第一个元素的属性值。
 
-##.attr()
+[`源码`](https://github.com/jquery/jquery/blob/master/src/attributes.js)
+
+### .attr()
 
 ```js
 attr: function( elem, name, value ) {
@@ -20,7 +22,7 @@ attr: function( elem, name, value ) {
   elem.setAttribute
 }
 ```
-##.prop()
+### .prop()
 
 ```js
 prop: function( elem, name, value ) {
@@ -35,7 +37,7 @@ prop: function( elem, name, value ) {
 [`attribute和property的区别`](http://stylechen.com/attribute-property.html)
 [`JavaScript中的property和attribute`](http://omiga.org/blog/archives/2055)
 
-###对于boolean attributes
+### .attr()对于boolean attributes
 
 > autofocus, autoplay, async, checked, controls, defer, disabled, hidden, loop, multiple, open, readonly, required, scoped, selected
 
@@ -65,6 +67,6 @@ var d = input.prop('disabled'); // boolean false
 
 ### tips
 
-1. 通过attr()删除boolean属性值，value只能为`null` ,`false` [`源码`](https://github.com/jquery/jquery/blob/master/src/attributes.js)
-2. 只能通过prop()访问的属性，`selectedIndex`, `tagName`, `nodeName`, `nodeType`, `ownerDocument`, `defaultChecked`, `defaultSelected`
+1. 通过attr()删除boolean属性值，value只能为`null` ,`false` 
+2. 只能通过prop()处理的属性，`selectedIndex`, `tagName`, `nodeName`, `nodeType`, `ownerDocument`, `defaultChecked`, `defaultSelected`
 3. 一般attr()方法处理在html中可见的属性，prop()处理不可见的属性
