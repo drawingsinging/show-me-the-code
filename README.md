@@ -19,6 +19,9 @@ Show me the code, one day per week.
 ## History
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
+    - [0322](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0322)
+        - [jQuery .attr() vs .prop()](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0322/liuxin.md) @[christineRR]
+        - [watermark](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0322/suqian.md): 文字背景水印 @[fengmk2]
     - [0227](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0227)
         - [RESTful URL router](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/suqian.md): 什么是REST，和一个简单的RESTful路由模块 @[fengmk2]
         - [不要捕获异步函数中的异常](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/puling.md) @[JacksonTian]
