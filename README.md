@@ -19,6 +19,8 @@ Show me the code, one day per week.
 ## History
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
+    - [0327](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0327)
+        - [gitlab hooks and API](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0327/suqian.md) @[fengmk2]
     - [0322](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0322)
         - [jQuery .attr() vs .prop()](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0322/liuxin.md) @[christineRR]
         - [watermark](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0322/suqian.md): 文字背景水印 @[fengmk2]
