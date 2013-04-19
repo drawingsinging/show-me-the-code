@@ -19,4 +19,4 @@
 
 ## 代码实现
 
-![具体代码](https://github.com/JacksonTian/gesture/blob/master/src/gesture.js)
+[具体代码](https://github.com/JacksonTian/gesture/blob/master/src/gesture.js)
