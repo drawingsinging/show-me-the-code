@@ -9,6 +9,7 @@ Show me the code, one day per week.
     - [0419](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0419)
         - [Graceful exit with cluster and pm](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0419/suqian.md) @[fengmk2]
         - [触屏手势](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0419/puling.md) @[JacksonTian]
+        - [坐标轴标签取成整数的算法](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0419/jdk137.md) @[jdk137]
     - [0327](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0327)
         - [gitlab hooks and API](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0327/suqian.md) @[fengmk2]
         - [源码注解工具doxco](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0327/puling.md) @[JacksonTian]
