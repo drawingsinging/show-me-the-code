@@ -6,6 +6,8 @@ Show me the code, one day per week.
 ## History
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
+    - [0426](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0426)
+        - [Hbase client, readable, zookeeper](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0426/suqian.md) @[fengmk2]
     - [0419](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0419)
         - [Graceful exit with cluster and pm](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0419/suqian.md) @[fengmk2]
         - [触屏手势](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0419/puling.md) @[JacksonTian]
