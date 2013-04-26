@@ -26,12 +26,12 @@ Show me the code, one day per week.
         - [jQuery .attr() vs .prop()](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0322/liuxin.md) @[christineRR]
         - [watermark](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0322/suqian.md): 文字背景水印 @[fengmk2]
     - [0315](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0315)
-        - [web-camera: 网页截屏](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0315/busi.md)
+        - [web-camera: 网页截屏](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0315/busi.md)@[dead-horse]
     - [0227](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0227)
         - [RESTful URL router](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/suqian.md): 什么是REST，和一个简单的RESTful路由模块 @[fengmk2]
         - [不要捕获异步函数中的异常](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/puling.md) @[JacksonTian]
         - [虾米发现音乐可视化导航](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/fahui.md) @[jdk137]
-        - [lreader:大文件读取工具](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/busi.md)
+        - [lreader:大文件读取工具](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0227/busi.md)@[dead-horse]
     - [0129](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0129)
         - [ali-cache, itierskin, ali-logger](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0129/suqian.md) 几个内部模块介绍 @[fengmk2]
         - [微信公共平台中间件](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0129/puling.md) @[JacksonTian]
