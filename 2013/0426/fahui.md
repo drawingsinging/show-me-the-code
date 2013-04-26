@@ -4,7 +4,7 @@
 
 如果能将两者结合，就能实现更强大的布局效果。同时可以将可视化布局算法与实际内容展现分离，促进不熟悉svg的前端开发者与可视化开发者的分工合作。
 
-[<foreignObject>](http://www.w3.org/TR/SVG/extend.html#ForeignObjectElement)是svg提供的一种节点类型，其中可以嵌套常见的html的DOM节点。如果其中嵌套div节点，则不要忘了加上命名空间 xmlns="http://www.w3.org/1999/xhtml"
+[foreignObject](http://www.w3.org/TR/SVG/extend.html#ForeignObjectElement)是svg提供的一种节点类型，其中可以嵌套常见的html的DOM节点。如果其中嵌套div节点，则不要忘了加上命名空间 xmlns="http://www.w3.org/1999/xhtml"
 
 
 ```html
