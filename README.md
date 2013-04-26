@@ -3,22 +3,16 @@ Show me the code
 
 Show me the code, one day per week.
 
-## Speakers
-
-|Rank|Name|Times|
-|----|----|----|
-|#0|[dead-horse]@不四|5|
-|#0|[fengmk2]@苏千|6|
-|#0|[JacksonTian]@朴灵|5|
-|#3|[jifeng]@继风|2|
-|#3|[loseheaven]@紫胤|2|
-|#4|[coolme200]@汤尧|1|
-|#4|[christineRR]@柳心|1|
-|#5|[sunfang1cn]@卡特|2|
-
 ## History
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
+    - [0426](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0426)
+        - [Hbase client, readable, zookeeper](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0426/suqian.md) @[fengmk2]
+        - [foreignObject, 在svg中嵌入div](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0426/fahui.md) @[jdk137]
+    - [0419](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0419)
+        - [Graceful exit with cluster and pm](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0419/suqian.md) @[fengmk2]
+        - [触屏手势](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0419/puling.md) @[JacksonTian]
+        - [坐标轴标签取成整数的算法](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0419/jdk137.md) @[jdk137]
     - [0327](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0327)
         - [gitlab hooks and API](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0327/suqian.md) @[fengmk2]
         - [源码注解工具doxco](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0327/puling.md) @[JacksonTian]
@@ -90,6 +84,20 @@ Show me the code, one day per week.
         - [Node.JS 中Buffer的各种坑](https://github.com/TBEDP/show-me-the-code/tree/master/2012/0815/kate.md) @[sunfang1cn]
 
 > Linus: ["Talk is cheap. Show me the code."](https://lkml.org/lkml/2000/8/25/132)
+
+## Speakers
+
+|Rank|Name|Times|
+|----|----|----|
+|#0|[dead-horse]@不四|5|
+|#0|[fengmk2]@苏千|6|
+|#0|[JacksonTian]@朴灵|5|
+|#3|[jifeng]@继风|2|
+|#3|[loseheaven]@紫胤|2|
+|#4|[coolme200]@汤尧|1|
+|#4|[christineRR]@柳心|1|
+|#5|[sunfang1cn]@卡特|2|
+
 
   [JacksonTian]: https://github.com/JacksonTian
   [fengmk2]: https://github.com/fengmk2
