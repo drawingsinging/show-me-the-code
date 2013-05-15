@@ -6,6 +6,8 @@ Show me the code, one day per week.
 ## History
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
+    - [0517](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0517)
+        - [Use Blanket.js instead of jscover](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0517/suqian.md) @[fengmk2]
     - [0426](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0426)
         - [Hbase client, readable, zookeeper](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0426/suqian.md) @[fengmk2]
         - [foreignObject, 在svg中嵌入div](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0426/fahui.md) @[jdk137]
