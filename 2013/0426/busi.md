@@ -1,6 +1,6 @@
 # weekee  
 
-[weekee](https://github/dead-horse/weekee): 一个基于Node.js + socket.io + git + markdown 的网页wiki系统。   
+[weekee](https://github.com/dead-horse/weekee): 一个基于Node.js + socket.io + git + markdown 的网页wiki系统。   
 ### 可以单独使用   
 
 ```js
@@ -105,6 +105,6 @@ server.listen(8080);
 ```
 
 ### 其他完整介绍  
-[weekee](https://github/dead-horse/weekee)   
+[weekee](https://github.com/dead-horse/weekee)   
 
 ### To Be Continue  
