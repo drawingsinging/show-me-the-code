@@ -6,10 +6,12 @@ Show me the code, one day per week.
 ## History
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
-    - [1128](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128)
-        - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
+    - [%m%d]
         - [主题名称](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/huaming.md) @[githubname]
         - ... 等着你 ...
+    - [1128](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128)
+        - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
+        - [Sass 与 Emmet 介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/wukong.md) @[wukong]
     - [0523](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0523)
         - [使用Chrome插件实现外域访问监控](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/suqian.md) @[fengmk2]
         - [EventProxy的异步事件触发: emitLater && doneLater](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/busi.md) @[dead-horse]
@@ -97,17 +99,49 @@ Show me the code, one day per week.
 
 ## Speakers
 
+生成排行
+
+```shell
+tree | ruby -e \
+'names={"busi"=>"不四","suqian"=>"苏千","jifeng"=>"继风","fahui"=>"法慧",
+"puling"=>"朴灵","liuxin"=>"柳心","ziyin"=>"紫胤","kate"=>"卡特",
+"basi"=>"巴斯","tangyao"=>"汤尧","jianxun"=>"剪巽","wukong"=>"雾空",
+"suqian2"=>"苏千"};
+
+puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
+  .keep_if {|item| !(%w[rule README readme].include?(item))}
+  .reduce(Hash.new(0)) {|h, e| h[e]+=1; h}.to_a
+  .sort_by(&:last).reverse
+  .map.with_index {|(a,b),idx| "|##{idx}|[#{a}]@#{names[a]}|#{b}|"}.join("\n")'
+```
+
 |Rank|Name|Times|
 |----|----|----|
-|#0|[dead-horse]@不四|5|
-|#0|[fengmk2]@苏千|6|
-|#0|[JacksonTian]@朴灵|5|
-|#3|[jifeng]@继风|2|
-|#3|[loseheaven]@紫胤|2|
-|#4|[coolme200]@汤尧|1|
-|#4|[christineRR]@柳心|1|
-|#5|[sunfang1cn]@卡特|2|
+|#0|[suqian]@苏千|17|
+|#1|[busi]@不四|9|
+|#2|[fahui]@法慧|7|
+|#3|[puling]@朴灵|5|
+|#4|[jifeng]@继风|5|
+|#5|[liuxin]@柳心|3|
+|#6|[ziyin]@紫胤|3|
+|#7|[kate]@卡特|2|
+|#8|[basi]@巴斯|2|
+|#9|[tangyao]@汤尧|2|
+|#10|[jianxun]@剪巽|1|
+|#11|[suqian2]@苏千|1|
+|#12|[wukong]@雾空|1|
 
+
+  [puling]: https://github.com/JacksonTian
+  [suqian]: https://github.com/fengmk2
+  [busi]: https://github.com/dead-horse
+  [jifeng]: https://github.com/jifeng
+  [tangyao]: https://github.com/coolme200
+  [liuxin]: https://github.com/christineRR
+  [ziyin]: https://github.com/loseheaven
+  [kate]: https://github.com/sunfang1cn
+  [fahui]: https://github.com/jdk137
+  [wukong]: https://github.com/alsotang
 
   [JacksonTian]: https://github.com/JacksonTian
   [fengmk2]: https://github.com/fengmk2
