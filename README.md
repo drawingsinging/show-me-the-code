@@ -101,7 +101,7 @@ Show me the code, one day per week.
 
 生成排行
 
-```shell
+```bash
 tree | ruby -e \
 'names={"busi"=>"不四","suqian"=>"苏千","jifeng"=>"继风","fahui"=>"法慧",
 "puling"=>"朴灵","liuxin"=>"柳心","ziyin"=>"紫胤","kate"=>"卡特",
@@ -141,7 +141,8 @@ puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
   [kate]: https://github.com/sunfang1cn
   [fahui]: https://github.com/jdk137
   [wukong]: https://github.com/alsotang
-
+  [basi]: https://github.com/rockdai
+  [jianxun]: https://github.com/fishbar
   [JacksonTian]: https://github.com/JacksonTian
   [fengmk2]: https://github.com/fengmk2
   [dead-horse]: https://github.com/dead-horse
