@@ -6,10 +6,12 @@ Show me the code, one day per week.
 ## History
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
-    - [1128](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128)
-        - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
+    - [%m%d]
         - [主题名称](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/huaming.md) @[githubname]
         - ... 等着你 ...
+    - [1128](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128)
+        - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
+        - [Sass 与 Emmet 介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/wukong.md) @[wukong]
     - [0523](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0523)
         - [使用Chrome插件实现外域访问监控](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/suqian.md) @[fengmk2]
         - [EventProxy的异步事件触发: emitLater && doneLater](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/busi.md) @[dead-horse]
@@ -100,9 +102,11 @@ Show me the code, one day per week.
 生成排行
 
 ```shell
-tree | ruby -r pp -e \
-'names={"busi"=>"不四","suqian"=>"苏千","jifeng"=>"继风","fahui"=>"法慧","puling"=>"朴灵","liuxin"=>"柳心",
-"ziyin"=>"紫胤","kate"=>"卡特","basi"=>"巴斯","tangyao"=>"汤尧","jianxun"=>"剪巽","wukong"=>"雾空","suqian2"=>"苏千"};
+tree | ruby -e \
+'names={"busi"=>"不四","suqian"=>"苏千","jifeng"=>"继风","fahui"=>"法慧",
+"puling"=>"朴灵","liuxin"=>"柳心","ziyin"=>"紫胤","kate"=>"卡特",
+"basi"=>"巴斯","tangyao"=>"汤尧","jianxun"=>"剪巽","wukong"=>"雾空",
+"suqian2"=>"苏千"};
 
 puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
   .keep_if {|item| !(%w[rule README readme].include?(item))}
@@ -138,3 +142,14 @@ puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
   [kate]: https://github.com/sunfang1cn
   [fahui]: https://github.com/jdk137
   [wukong]: https://github.com/alsotang
+
+  [JacksonTian]: https://github.com/JacksonTian
+  [fengmk2]: https://github.com/fengmk2
+  [dead-horse]: https://github.com/dead-horse
+  [jifeng]: https://github.com/jifeng
+  [coolme200]: https://github.com/coolme200
+  [christineRR]: https://github.com/christineRR
+  [loseheaven]: https://github.com/loseheaven
+  [ziyin]: https://github.com/loseheaven
+  [sunfang1cn]: https://github.com/sunfang1cn
+  [jdk137]: https://github.com/jdk137
