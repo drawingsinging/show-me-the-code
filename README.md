@@ -7,6 +7,7 @@ Show me the code, one day per week.
 
 * [2013](https://github.com/TBEDP/show-me-the-code/tree/master/2013)
     - [1128](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128)
+        - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
         - [主题名称](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/huaming.md) @[githubname]
         - ... 等着你 ...
     - [0523](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0523)
