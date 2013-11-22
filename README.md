@@ -122,14 +122,13 @@ puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
 |#2|[fahui]@法慧|7|
 |#3|[puling]@朴灵|5|
 |#4|[jifeng]@继风|5|
-|#5|[liuxin]@柳心|3|
-|#6|[ziyin]@紫胤|3|
-|#7|[kate]@卡特|2|
-|#8|[basi]@巴斯|2|
-|#9|[tangyao]@汤尧|2|
+|#5|[ziyin]@紫胤|3|
+|#6|[liuxin]@柳心|3|
+|#7|[basi]@巴斯|2|
+|#8|[tangyao]@汤尧|2|
+|#9|[kate]@卡特|2|
 |#10|[jianxun]@剪巽|1|
-|#11|[suqian2]@苏千|1|
-|#12|[wukong]@雾空|1|
+|#11|[wukong]@雾空|1|
 
 
   [puling]: https://github.com/JacksonTian
