@@ -40,6 +40,39 @@ $ tree
 7 directories, 16 files
 ```
 
+## 运行
+
+```bash
+$ node dispatch.js
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2396] #1 new worker start
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2397] #2 new worker start
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [master:2395] com.taobao.demoapi.Service:1.0.0:12200 published
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2396] #1 worker online
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2397] #2 worker online
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2397] #2 Server started, web listen at 7001, hsf listen at 12200 cluster: true
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2396] #1 Server started, web listen at 7001, hsf listen at 12200 cluster: true
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2396] #1 worker listening on 0.0.0.0:7001:4
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2397] #2 worker listening on 0.0.0.0:7001:4
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2396] #1 worker listening on 0.0.0.0:12200:4
+[Tue Nov 26 2013 16:56:08 GMT+0800 (CST)] [worker:2397] #2 worker listening on 0.0.0.0:12200:4
+```
+
+### RESTful
+
+```bash
+$ curl 127.0.0.1:7001/v1/users/1?callsource=devtoken
+{"name":"suqian.yf","uid":"1"}
+
+$ curl 127.0.0.1:7001/v1/users/500?callsource=devtoken
+{"message":"mock server error"}
+```
+
+### HSF
+
+[com.taobao.demoapi.Service:1.0.0](http://ops.jm.taobao.net/service-manager/service_search/search.htm?key=com.taobao.demoapi.Service%3A1.0.0&type=1)
+
+![1](http://nfs.nodeblog.org/c/6/c6df9aa3b78d679d3b42c7461e60195c.png)
+
 ## 代码解说
 
 [demoapi/](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/demoapi)

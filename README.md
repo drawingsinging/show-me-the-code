@@ -118,7 +118,7 @@ puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
 
 |Rank|Name|Times|
 |----|----|----|
-|#0|[suqian]@苏千|17|
+|#0|[suqian]@苏千|18|
 |#1|[busi]@不四|9|
 |#2|[fahui]@法慧|7|
 |#3|[puling]@朴灵|5|
