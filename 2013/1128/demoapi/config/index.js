@@ -19,6 +19,7 @@ var root = path.dirname(__dirname);
 module.exports = {
   debug: true,
   enableCluster: true,
+  workerCount: 2,
   onlineStatusFile: path.join(root, 'public', 'status.taobao'),
   webPort: 7001,
 
@@ -26,7 +27,7 @@ module.exports = {
   hsfDiamondHost: 'commonconfig.taobao.net', // online: commonconfig.config-host.taobao.com
   hsfSeviceConfigSvr: '10.232.16.8',
   hsfSeviceVersion: '1.0.0',
-  hsfSeviceName: 'com.taobao.cdo.APIService',
+  hsfSeviceName: 'com.taobao.demoapi.Service',
   hsfSeviceAuthCheck: true,
   hsfSeviceLogOff: true,
 };
