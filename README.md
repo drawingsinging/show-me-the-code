@@ -13,6 +13,7 @@ Show me the code, one day per week.
         - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
         - [Sass 与 Emmet 介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/wukong.md) @[wukong]
         - [搭建双协议接口的服务](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/suqian.md) @[fengmk2]
+        - [兼容 node v0.8 到 v0.11 的 node addons 开发](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/busi.md) @[dead-horse]
     - [0523](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0523)
         - [使用Chrome插件实现外域访问监控](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/suqian.md) @[fengmk2]
         - [EventProxy的异步事件触发: emitLater && doneLater](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/busi.md) @[dead-horse]
@@ -119,7 +120,7 @@ puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
 |Rank|Name|Times|
 |----|----|----|
 |#0|[suqian]@苏千|18|
-|#1|[busi]@不四|9|
+|#1|[busi]@不四|10|
 |#2|[fahui]@法慧|7|
 |#3|[puling]@朴灵|5|
 |#4|[jifeng]@继风|5|
