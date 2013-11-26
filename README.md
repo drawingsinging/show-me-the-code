@@ -14,6 +14,7 @@ Show me the code, one day per week.
         - [Sass 与 Emmet 介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/wukong.md) @[wukong]
         - [搭建双协议接口的服务](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/suqian.md) @[fengmk2]
         - [兼容 node v0.8 到 v0.11 的 node addons 开发](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/busi.md) @[dead-horse]
+        - [node.js控制流工具比较](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/jinyan.md) @[jinyan]
     - [0523](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0523)
         - [使用Chrome插件实现外域访问监控](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/suqian.md) @[fengmk2]
         - [EventProxy的异步事件触发: emitLater && doneLater](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/busi.md) @[dead-horse]
@@ -104,10 +105,11 @@ Show me the code, one day per week.
 生成排行
 
 ```bash
-tree | ruby -e \
+tree -I node_modules | ruby -e \
 'names={"busi"=>"不四","suqian"=>"苏千","jifeng"=>"继风","fahui"=>"法慧",
 "puling"=>"朴灵","liuxin"=>"柳心","ziyin"=>"紫胤","kate"=>"卡特",
 "basi"=>"巴斯","tangyao"=>"汤尧","jianxun"=>"剪巽","wukong"=>"雾空",
+"jinyan"=>"尽言",
 "suqian2"=>"苏千"};
 
 puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
@@ -124,13 +126,14 @@ puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
 |#2|[fahui]@法慧|7|
 |#3|[puling]@朴灵|5|
 |#4|[jifeng]@继风|5|
-|#5|[ziyin]@紫胤|3|
-|#6|[liuxin]@柳心|3|
-|#7|[basi]@巴斯|2|
-|#8|[tangyao]@汤尧|2|
-|#9|[kate]@卡特|2|
+|#5|[liuxin]@柳心|3|
+|#6|[ziyin]@紫胤|3|
+|#7|[kate]@卡特|2|
+|#8|[basi]@巴斯|2|
+|#9|[tangyao]@汤尧|2|
 |#10|[jianxun]@剪巽|1|
-|#11|[wukong]@雾空|1|
+|#11|[jinyan]@尽言|1|
+|#12|[wukong]@雾空|1|
 
 
   [puling]: https://github.com/JacksonTian
@@ -155,3 +158,4 @@ puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
   [ziyin]: https://github.com/loseheaven
   [sunfang1cn]: https://github.com/sunfang1cn
   [jdk137]: https://github.com/jdk137
+  [jinyan]: https://github.com/ayanamist
