@@ -1,0 +1,46 @@
+{
+  "name": "demoapi",
+  "version": "0.0.1",
+  "description": "demo api service",
+  "main": "dispatch.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TBEDP/show-me-the-code"
+  },
+  "keywords": [
+    "hsf",
+    "rest",
+    "restful",
+    "api"
+  ],
+  "author": "suqian.yf <suqian.yf@taobao.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TBEDP/show-me-the-code/issues"
+  },
+  "dependencies": {
+    "connect": "2.11.0",
+    "response-patch": "0.1.1",
+    "urlrouter": "0.5.1",
+    "restful-wrap": "0.0.1",
+    "taobaostatus": "0.1.1",
+    "graceful": "0.0.5",
+    "hsf": "0.8.14",
+    "hsf-wrap": "0.0.6",
+    "parameter": "0.0.7"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "blanket": "*",
+    "mm": "*",
+    "pedding": "*",
+    "supertest": "*",
+    "hsftest": "*",
+    "travis-cov": "*"
+  },
+  "homepage": "https://github.com/TBEDP/show-me-the-code"
+}

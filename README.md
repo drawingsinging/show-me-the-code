@@ -12,6 +12,7 @@ Show me the code, one day per week.
     - [1128](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128)
         - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
         - [Sass 与 Emmet 介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/wukong.md) @[wukong]
+        - [搭建双协议接口的服务](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/suqian.md) @[fengmk2]
     - [0523](https://github.com/TBEDP/show-me-the-code/tree/master/2013/0523)
         - [使用Chrome插件实现外域访问监控](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/suqian.md) @[fengmk2]
         - [EventProxy的异步事件触发: emitLater && doneLater](https://github.com/TBEDP/show-me-the-code/blob/master/2013/0523/busi.md) @[dead-horse]
