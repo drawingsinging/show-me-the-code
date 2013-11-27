@@ -77,3 +77,12 @@ $ curl 127.0.0.1:7001/v1/users/500?callsource=devtoken
 
 [demoapi/](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/demoapi)
 
+## 优势
+
+很难想象使用其他语言会如何实现这类的多协议接口服务.
+
+假设新的接口使用方已有的系统, 只能支持 tair 协议, 使用 hsf 和 restful 接口成本很高,
+
+你会怎么办?
+
+"每个 node 进程就是网络海洋中的小小节点, 它们组成了整个网络."
