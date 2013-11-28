@@ -7,7 +7,6 @@
 主要介绍 Sass 的嵌套写法 和
 Sublime Emmet 的基本使用。
 
-----
 
 ## Sass
 
@@ -82,9 +81,8 @@ Sublime Emmet 的基本使用。
 
 我有试着帮 Loader.js 加入 Sass 的支持。生产环境那部分已经成功，但是测试环境部分 Loader.js 无法方便获取项目代码目录，所以停止了。
 
-----
 
-Emmet(previously known as Zen Coding)
+## Emmet(previously known as Zen Coding)
 
 用 CSS selector 来写 HTML。或者说，用 Jade 的语法来写 HTML：Jade 写起来方便，HTML 调整细节方便。
 
