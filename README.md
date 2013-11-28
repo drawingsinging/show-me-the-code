@@ -105,14 +105,14 @@ Show me the code, one day per week.
 生成排行
 
 ```bash
-tree -I node_modules | ruby -e \
+ruby -e \
 'names={"busi"=>"不四","suqian"=>"苏千","jifeng"=>"继风","fahui"=>"法慧",
 "puling"=>"朴灵","liuxin"=>"柳心","ziyin"=>"紫胤","kate"=>"卡特",
 "basi"=>"巴斯","tangyao"=>"汤尧","jianxun"=>"剪巽","wukong"=>"雾空",
 "jinyan"=>"尽言",
 "suqian2"=>"苏千"};
 
-puts ARGF.read.each_line.map {|line| line[/([^\s]+?)\.md/]; $1}.compact
+puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.compact
   .keep_if {|item| !(%w[rule README readme].include?(item))}
   .reduce(Hash.new(0)) {|h, e| h[e]+=1; h}.to_a
   .sort_by(&:last).reverse
