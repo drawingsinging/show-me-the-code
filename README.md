@@ -110,7 +110,7 @@ Show me the code, one day per week.
 ruby -e \
 'names={"busi"=>"不四","suqian"=>"苏千","jifeng"=>"继风","fahui"=>"法慧",
 "puling"=>"朴灵","liuxin"=>"柳心","ziyin"=>"紫胤","kate"=>"卡特",
-"basi"=>"巴斯","tangyao"=>"汤尧","jianxun"=>"剪巽","wukong"=>"雾空",
+"basi"=>"巴思","tangyao"=>"汤尧","jianxun"=>"剪巽","wukong"=>"雾空",
 "jinyan"=>"尽言",
 "suqian2"=>"苏千"};
 
@@ -130,12 +130,12 @@ puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.comp
 |#4|[jifeng]@继风|5|
 |#5|[liuxin]@柳心|3|
 |#6|[ziyin]@紫胤|3|
-|#7|[kate]@卡特|2|
-|#8|[basi]@巴斯|2|
+|#7|[wukong]@雾空|2|
+|#8|[basi]@巴思|2|
 |#9|[tangyao]@汤尧|2|
-|#10|[jianxun]@剪巽|1|
+|#10|[kate]@卡特|2|
 |#11|[jinyan]@尽言|1|
-|#12|[wukong]@雾空|1|
+|#12|[jianxun]@剪巽|1|
 
 
   [puling]: https://github.com/JacksonTian
