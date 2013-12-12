@@ -9,9 +9,11 @@ Show me the code, one day per week.
     - [%m%d]
         - [主题名称](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/huaming.md) @[githubname]
         - ... 等着你 ...
+    - [1213]
+        - [JS 高阶函数实例](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/wukong.md) @[alsotang]
     - [1128](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128)
         - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
-        - [Sass 与 Emmet 介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/wukong.md) @[wukong]
+        - [Sass 与 Emmet 介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/wukong.md) @[alsotang]
         - [搭建双协议接口的服务](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/suqian.md) @[fengmk2]
         - [兼容 node v0.8 到 v0.11 的 node addons 开发](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/busi.md) @[dead-horse]
         - [node.js控制流工具比较](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128/jinyan.md) @[jinyan]
@@ -146,6 +148,7 @@ puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.comp
   [kate]: https://github.com/sunfang1cn
   [fahui]: https://github.com/jdk137
   [wukong]: https://github.com/alsotang
+  [alsotang]: https://github.com/alsotang
   [basi]: https://github.com/rockdai
   [jianxun]: https://github.com/fishbar
   [JacksonTian]: https://github.com/JacksonTian
