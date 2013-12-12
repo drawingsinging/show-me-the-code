@@ -11,6 +11,7 @@ Show me the code, one day per week.
         - ... 等着你 ...
     - [1213]
         - [JS 高阶函数实例](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/wukong.md) @[alsotang]
+        - [色彩的数学规则](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/yeshou.md) @[yeshou]
     - [1128](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1128)
         - [@京JS 是如何办成的](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/puling.md) @[JacksonTian]
         - [Sass 与 Emmet 介绍](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/wukong.md) @[alsotang]
@@ -111,8 +112,7 @@ ruby -e \
 'names={"busi"=>"不四","suqian"=>"苏千","jifeng"=>"继风","fahui"=>"法慧",
 "puling"=>"朴灵","liuxin"=>"柳心","ziyin"=>"紫胤","kate"=>"卡特",
 "basi"=>"巴思","tangyao"=>"汤尧","jianxun"=>"剪巽","wukong"=>"雾空",
-"jinyan"=>"尽言",
-"suqian2"=>"苏千"};
+"jinyan"=>"尽言", "yeshou"=>"野狩", "suqian2"=>"苏千"};
 
 puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.compact
   .keep_if {|item| !(%w[rule README readme].include?(item))}
@@ -130,12 +130,13 @@ puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.comp
 |#4|[jifeng]@继风|5|
 |#5|[liuxin]@柳心|3|
 |#6|[ziyin]@紫胤|3|
-|#7|[wukong]@雾空|2|
-|#8|[basi]@巴思|2|
-|#9|[tangyao]@汤尧|2|
-|#10|[kate]@卡特|2|
+|#7|[basi]@巴思|2|
+|#8|[tangyao]@汤尧|2|
+|#9|[kate]@卡特|2|
+|#10|[wukong]@雾空|2|
 |#11|[jinyan]@尽言|1|
 |#12|[jianxun]@剪巽|1|
+|#13|[yeshou]@野狩|1|
 
 
   [puling]: https://github.com/JacksonTian
@@ -162,3 +163,4 @@ puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.comp
   [sunfang1cn]: https://github.com/sunfang1cn
   [jdk137]: https://github.com/jdk137
   [jinyan]: https://github.com/ayanamist
+  [yeshou]: https://github.com/zhouningyi
