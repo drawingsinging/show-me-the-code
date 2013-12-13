@@ -125,7 +125,7 @@ puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.comp
 
 |Rank|Name|Times|
 |----|----|----|
-|#0|[suqian]@苏千|18|
+|#0|[suqian]@苏千|19|
 |#1|[busi]@不四|11|
 |#2|[fahui]@法慧|7|
 |#3|[puling]@朴灵|5|
