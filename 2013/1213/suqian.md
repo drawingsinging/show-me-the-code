@@ -22,17 +22,17 @@ $ npm install -g cnpm
 
 ## 现在就开始使用 cnpm
 
-### .travis.yml
-
-```yml
-# add this config
-before_install:
-  - 'npm install --registry=http://registry.cnpmjs.org --cache=${HOME}/.npm/.cache/cnpm'
-```
-
 ### Makefile
 
 ```bash
 install:
   @npm install --registry=http://registry.cnpmjs.org --cache=${HOME}/.npm/.cache/cnpm
+```
+
+### .travis.yml
+
+```yml
+# add this config
+before_install:
+  - 'make install'
 ```
