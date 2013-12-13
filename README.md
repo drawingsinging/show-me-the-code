@@ -117,7 +117,7 @@ ruby -e \
 "jinyan"=>"尽言", "yeshou"=>"野狩", "suqian2"=>"苏千"};
 
 puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.compact
-  .keep_if {|item| !(%w[rule README readme].include?(item))}
+  .keep_if {|item| names.keys.include?(item)}
   .reduce(Hash.new(0)) {|h, e| h[e]+=1; h}.to_a
   .sort_by(&:last).reverse
   .map.with_index {|(a,b),idx| "|##{idx}|[#{a}]@#{names[a]}|#{b}|"}.join("\n")'
