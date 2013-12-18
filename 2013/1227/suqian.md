@@ -88,13 +88,6 @@ default:
       - mocha
 ```
 
-一些说明:
-
-```
-@李福 2013-12-17 17:51:03
-@苏千 你的问题可能和账号有关，CISE的一个历史包袱是 /opt/source 目录的owner是 ads ，这个对于非一淘用户是不合理的，workaround的办法是直接在prepare的时候写： chown root:root -R $source_root
-```
-
 * push你的代码吧
 
 Toast 任务会比自动触发, 然后你就看到结果了.
