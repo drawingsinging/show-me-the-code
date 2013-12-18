@@ -22,9 +22,15 @@
 * package.json 增加 [alicov](https://github.com/fengmk2/alicov) 的配置
 
 ```json
+"scripts": {
+  "test": "make test-all",
+  "blanket": {
+    "pattern": "//^((?!(node_modules|test)).)*$/"
+  }
+},
 "config": {
   "alicov": {
-    "threshold": 100
+    "threshold": 95
   }
 }
 ```
