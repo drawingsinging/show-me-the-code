@@ -72,12 +72,31 @@ test-all: test test-cov
 
 * 编辑 `.cise.yml`
 
-```
+```yml
 default:
   prepare:
     exec:
       - yum install -b current nodejs -y && chown root:root -R $source_root
       - echo "export PATH=/opt/taobao/install/node.js/bin:$PATH" >> ~/.bashrc
+  unit_test:
+    exec:
+      - echo "node `node -v`" && echo "npm `npm -v`"
+      - make install
+      - make test
+      - make test-cov
+    parser:
+      - mocha
+```
+
+如果你需要有依赖 C/C++ 模块, 还需要安装 node-gyp
+
+```yml
+default:
+  prepare:
+    exec:
+      - yum install -b current nodejs -y && chown root:root -R $source_root
+      - echo "export PATH=/opt/taobao/install/node.js/bin:$PATH" >> ~/.bashrc
+      - PYTHON=`which python2.6` npm --registry=http://registry.npm.taobao.net install -g node-gyp
   unit_test:
     exec:
       - echo "node `node -v`" && echo "npm `npm -v`"
