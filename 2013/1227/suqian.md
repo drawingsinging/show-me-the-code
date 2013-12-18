@@ -19,6 +19,16 @@
 
 * 添加 web hook, 跟普通的 Toast 一致
 
+* package.json 增加 [alicov](https://github.com/fengmk2/alicov) 的配置
+
+```json
+"config": {
+  "alicov": {
+    "threshold": 100
+  }
+}
+```
+
 * 修改 Makefile, 使用 [alicov](https://github.com/fengmk2/alicov) 做代码覆盖率解析工具
 
 `Makefile` 示例:
@@ -29,7 +39,7 @@ REPORTER = tap
 TIMEOUT = 10000
 MOCHA_OPTS =
 MOCHA = ./node_modules/mocha/bin/mocha
-NPM_REGISTRY = --registry=http://registry.cnpmjs.org
+NPM_REGISTRY = --registry=http://registry.npm.taobao.net --disturl=http://dist.u.qiniudn.com
 NPM_INSTALL_PRODUCTION = PYTHON=`which python2.6` NODE_ENV=production npm $(NPM_REGISTRY) install --silent
 NPM_INSTALL_TEST = PYTHON=`which python2.6` NODE_ENV=test npm $(NPM_REGISTRY) install --silent
 
@@ -61,9 +71,13 @@ default:
   prepare:
     exec:
       - yum install -b current nodejs -y && chown root:root -R $source_root
+      - echo "export PATH=/opt/taobao/install/node.js/bin:$PATH" >> ~/.bashrc
   unit_test:
     exec:
-      - export PATH=/opt/taobao/install/node.js/bin:$PATH && echo "node `node -v`" && echo "npm `npm -v`" && make test-all
+      - echo "node `node -v`" && echo "npm `npm -v`"
+      - make install
+      - make test
+      - make test-cov
     parser:
       - mocha
 ```
