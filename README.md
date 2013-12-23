@@ -9,8 +9,8 @@ Show me the code, one day per week.
     - [%m%d]
         - [主题名称](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1128/huaming.md) @[githubname]
         - ... 等着你 ...
-    - [1227](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1227)
-        - [CISE, 阿里内部的 Travis ci](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1227/suqian.md) @[fengmk2]
+    - [1226](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1226)
+        - [CISE, 阿里内部的 Travis ci](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1226/suqian.md) @[fengmk2]
     - [1213](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1213)
         - [JS 高阶函数实例](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/wukong.md) @[alsotang]
         - [色彩的数学规则](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/yeshou.md) @[yeshou]
