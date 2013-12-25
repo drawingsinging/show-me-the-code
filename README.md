@@ -12,6 +12,7 @@ Show me the code, one day per week.
     - [1226](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1226)
         - [CISE, 阿里内部的 Travis ci](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1226/suqian.md) @[fengmk2]
         - [关于 BDD 的小思考](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1226/wukong.md) @[alsotang]
+        # [autod - 自动分析项目生成依赖的工具](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1226/busi.md) @[dead-horse]
     - [1213](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1213)
         - [JS 高阶函数实例](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/wukong.md) @[alsotang]
         - [色彩的数学规则](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/yeshou.md) @[yeshou]
@@ -128,21 +129,20 @@ puts Dir["**/*.md"].map {|filename| filename[%r(\A\d+/\d+/(.+?)\.md\z)];$1}.comp
 
 |Rank|Name|Times|
 |----|----|----|
-|#0|[suqian]@苏千|19|
-|#1|[busi]@不四|11|
+|#0|[suqian]@苏千|20|
+|#1|[busi]@不四|12|
 |#2|[fahui]@法慧|7|
 |#3|[puling]@朴灵|5|
 |#4|[jifeng]@继风|5|
 |#5|[liuxin]@柳心|3|
 |#6|[ziyin]@紫胤|3|
-|#7|[basi]@巴思|2|
-|#8|[tangyao]@汤尧|2|
-|#9|[kate]@卡特|2|
-|#10|[wukong]@雾空|2|
-|#11|[jinyan]@尽言|1|
-|#12|[jianxun]@剪巽|1|
+|#7|[wukong]@雾空|3|
+|#8|[basi]@巴思|2|
+|#9|[tangyao]@汤尧|2|
+|#10|[kate]@卡特|2|
+|#11|[jianxun]@剪巽|1|
+|#12|[jinyan]@尽言|1|
 |#13|[yeshou]@野狩|1|
-
 
   [puling]: https://github.com/JacksonTian
   [suqian]: https://github.com/fengmk2
