@@ -12,7 +12,7 @@ Show me the code, one day per week.
     - [1226](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1226)
         - [CISE, 阿里内部的 Travis ci](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1226/suqian.md) @[fengmk2]
         - [关于 BDD 的小思考](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1226/wukong.md) @[alsotang]
-        # [autod - 自动分析项目生成依赖的工具](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1226/busi.md) @[dead-horse]
+        - [autod - 自动分析项目生成依赖的工具](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1226/busi.md) @[dead-horse]
     - [1213](https://github.com/TBEDP/show-me-the-code/tree/master/2013/1213)
         - [JS 高阶函数实例](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/wukong.md) @[alsotang]
         - [色彩的数学规则](https://github.com/TBEDP/show-me-the-code/blob/master/2013/1213/yeshou.md) @[yeshou]
